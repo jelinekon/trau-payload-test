@@ -1,0 +1,12 @@
+.content {
+  li {
+    @apply pl-0 md:mb-12 mb-8 last:mb-0;
+    &:before {
+      @apply w-2 h-2 top-2;
+      background-image: url('/ui/dot-light.svg');
+    }
+  }
+  strong {
+    @apply text-12 pl-6 mb-4 inline-block uppercase tracking-wider font-caption font-normal;
+  }
+}

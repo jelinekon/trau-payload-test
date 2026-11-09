@@ -1,0 +1,8 @@
+.description {
+  p {
+    @apply text-18;
+  }
+  ul {
+    @apply border-t border-black/10 pt-6 mt-6 opacity-60;
+  }
+}
